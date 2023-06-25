@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 10%;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+    color: white;
+}
+
+button{
+    background-color: teal;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+
+/* Inicio estilo main */
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.tarjeta{
+    border: 1px solid gray;
+}
+
+.encabezado_tarjeta{
+    background-color: teal;
+    height: 75px;
+}
+
+.imagen_perfil{
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.informacion_tarjeta{
+    padding-left: 40px;
+    margin-top: 60px;
+}
+
+.ubicacion{
+    display: flex;
+    align-items: center;
+}
+
+.pin, .gear{
+    height: 20px;
+}
+
+h4{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding: 10px;
+}
+
+.educacion{
+    border: 1px solid gray;
+}
+
+.numero{
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    padding: 1px 5px;
+}
+
+.solicitud{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img_nombre{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.imagen_usuario{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.icono{
+    height: 30px;
+}
+
+.columna{
+    flex: 2;
+}
+
+.izquierda{
+    flex: 3;
+}
